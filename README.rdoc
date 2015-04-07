@@ -1,1 +1,4 @@
 WatchIn Beta version 1.0
+
+social_stream-base-2.2.2
+social_stream-events-2.2.1
