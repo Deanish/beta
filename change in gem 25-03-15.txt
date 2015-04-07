@@ -1,0 +1,91 @@
+social_stream-base-2.2.2/app/views/layouts/_logo_out.html.erb
+
+
+<div class="logo-header-out">
+  <%= link_to root_path, alt: t('site.name') do %>
+    <div class="cube">
+      <div class="face top-plane">
+      </div>
+      <div class="face top-plane top-plane-shape">
+      </div>
+      <div class="face left-plane">
+      </div>
+      <div class="face left-plane left-plane-shape">
+      </div>
+      <div class="face demoright">
+      </div>
+    </div>
+    <div class="shadow">
+    </div>        
+    <%= link_to(image_tag('header-logo-index.png', class: "logo", :alt => t('site.name')), root_path) %>
+  <% end %>
+</div>
+
+
+-------------------------------------------------------------------------------------------------
+
+
+social_stream-base-2.2.2/app/views/frontpage/index.html.erb
+2
+
+  <%= render :partial => "layouts/explanation" %>
+
+4
+
+  <%= render partial: 'frontpage/presentation' %>
+
+
+-------------------------------------------------------------------------------------------------
+
+
+social_stream-base-2.2.2/app/views/layouts/_footer.html.erb
+
+
+<footer>
+  <ul>
+    <li>
+      <%= Date.today.year %> © 
+    </li>
+    <li id="trade_mark">
+      <%= link_to t('site.name'), 'http://social-stream.dit.upm.es/' %>
+    </li>
+    <li>
+      <%= link_to(image_tag('HTML5.png'), 'http://validator.w3.org/check?uri=referer') %>
+    </li>
+    <li>
+      <%= link_to(image_tag('HTML5_Styling.png'),'http://jigsaw.w3.org/css-validator/check/referer') %>
+    </li>
+    <li>
+      <%= link_to(image_tag('HTML5_Semantics.png'),'http://jigsaw.w3.org/css-validator/check/referer') %>
+    </li>
+  </ul>
+</footer>
+
+
+-------------------------------------------------------------------------------------------------
+
+
+social_stream-base-2.2.2/app/assets/stylesheets/social_stream/base/frontpage_devise/layout/_frontpage.css.sass
+34
+
+  #sign_in
+    width: 27%
+    float: right
+    display: inline-block
+    padding: 5px 15px
+    margin: 27px 2% 0 14px
+    h3
+      margin-top: 0px
+      margin-bottom: 0px
+    #remember
+      margin-bottom: 10px 
+      display: inline !important
+      label
+        display: inline-block
+        margin-top: 5px
+    input
+      &[type="submit"]
+        float: right
+        display: inline
+    .soften
+      clear: both

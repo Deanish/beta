@@ -1,0 +1,18 @@
+social_stream-base-2.2.2/app/views/layouts/_logo_out.html.erb
+3
+
+    <div class="cube">
+      <div class="face top-plane">
+      </div>
+      <div class="face top-plane top-plane-shape">
+      </div>
+      <div class="face left-plane">
+      </div>
+      <div class="face left-plane left-plane-shape">
+      </div>
+      <div class="face demoright">
+      </div>
+    </div>
+    <div class="shadow">
+    </div>
+-------------------------------------------------------------------------------------------------    

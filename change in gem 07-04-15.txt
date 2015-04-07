@@ -1,0 +1,11 @@
+beta/app/assets/stylesheets/social_stream.css.sass
+
+Added Fontello gem 
+
+@import "fontello"
+@import "animation"
+
+
+-------------------------------------------------------------------------------------------------
+
+

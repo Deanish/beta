@@ -1,0 +1,33 @@
+social_stream-base-2.2.2/app/views/devise/sessions/_form.html.erb
+
+<%= f.label :email %>
+
+<%= f.label :password %>
+
+-------------------------------------------------------------------------------------------------
+
+social_stream-base-2.2.2/app/views/layouts/application.html.erb
+
+<title><%= content_for?(:title) ? yield(:title) : t('site.current.title') %></title>
+
+-------------------------------------------------------------------------------------------------
+
+social_stream-base-2.2.2/app/views/devise/registration/new.html.erb
+
+Replaced placeholder with labels
+
+-------------------------------------------------------------------------------------------------
+
+social_stream-base-2.2.2/app/assets/stylesheets/social_sstream/base/footer/layout/_footer.css.sass
+
+  padding-top: 30px
+
+-------------------------------------------------------------------------------------------------
+
+social_stream-base-2.2.2/app/assets/stylesheets/social_sstream/base/frontpage_devise/layout/_devise.css.sass
+
+#registration
+  .registration
+    float: right
+
+-------------------------------------------------------------------------------------------------
